@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_atm"
+            android:icon="@drawable/atm"
+            android:title="ATM" />
+        <item
+            android:id="@+id/nav_bank"
+            android:icon="@drawable/bank"
+            android:title="Bank" />
+        <item
+            android:id="@+id/nav_bar"
+            android:icon="@drawable/bar"
+            android:title="Bar" />
+        <item
+            android:id="@+id/nav_book_store"
+            android:icon="@drawable/book"
+            android:title="Book Store" />
+        <item
+            android:id="@+id/nav_bus_station"
+            android:icon="@drawable/bus"
+            android:title="Bus Station" />
+        <item
+            android:id="@+id/nav_cafe"
+            android:icon="@drawable/cafe"
+            android:title="Cafe" />
+        <item
+            android:id="@+id/nav_church"
+            android:icon="@drawable/church"
+            android:title="Church" />
+        <item
+            android:id="@+id/nav_convenience_store"
+            android:icon="@drawable/shop"
+            android:title="Convenience Store" />
+        <item
+            android:id="@+id/nav_food"
+            android:icon="@drawable/dinningroom"
+            android:title="Food" />
+        <item
+            android:id="@+id/nav_gas_station"
+            android:icon="@drawable/gasstation"
+            android:title="Gas Station" />
+        <item
+            android:id="@+id/nav_hardware_store"
+            android:icon="@drawable/devicemanager"
+            android:title="Hardware Store" />
+        <item
+            android:id="@+id/nav_hospital"
+            android:icon="@drawable/hospital"
+            android:title="Hospital" />
+        <item
+            android:id="@+id/nav_movie_theater"
+            android:icon="@drawable/movie"
+            android:title="Movie Theater" />
+        <item
+            android:id="@+id/nav_park"
+            android:icon="@drawable/carousel"
+            android:title="Park" />
+        <item
+            android:id="@+id/nav_pharmacy"
+            android:icon="@drawable/pill"
+            android:title="Pharmacy" />
+        <item
+            android:id="@+id/nav_post_office"
+            android:icon="@drawable/postoffice"
+            android:title="Post Office" />
+        <item
+            android:id="@+id/nav_restaurant"
+            android:icon="@drawable/restaurant"
+            android:title="Restaurant" />
+        <item
+            android:id="@+id/nav_school"
+            android:icon="@drawable/school"
+            android:title="School" />
+        <item
+            android:id="@+id/nav_shopping_mall"
+            android:icon="@drawable/shop"
+            android:title="Shopping Mall" />
+        <item
+            android:id="@+id/nav_university"
+            android:icon="@drawable/university"
+            android:title="University" />
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Share" />
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Send" />
+        </menu>
+    </item>
+
+</menu>

@@ -83,6 +83,11 @@ public class DetailActivity extends AppCompatActivity
         googleMap.moveCamera(CameraUpdateFactory.newLatLngZoom(latLng, 14.0f));
     }
 
+    @Override
+    protected void onResumeFragments() {
+        super.onResumeFragments();
+    }
+
     /**
      *
      */

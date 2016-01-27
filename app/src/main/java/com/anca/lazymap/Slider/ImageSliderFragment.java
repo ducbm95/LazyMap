@@ -48,9 +48,11 @@ public class ImageSliderFragment extends Fragment {
     @Override
     public void onActivityCreated(Bundle savedInstanceState) {
         super.onActivityCreated(savedInstanceState);
-        Picasso.with(getContext())
-                .load(UrlUtils.getPlacePhoto(ImageSliderAdapter.mPhotos.get(mPhotoNum).getPhotoReference(),
-                        getResources().getString(R.string.google_web_service_key)))
-                .into(mImageView);
+        if (ImageSliderAdapter.mPhotos != null) {
+            Picasso.with(getContext())
+                    .load(UrlUtils.getPlacePhoto(ImageSliderAdapter.mPhotos.get(mPhotoNum).getPhotoReference(),
+                            getResources().getString(R.string.google_web_service_key)))
+                    .into(mImageView);
+        }
     }
 }

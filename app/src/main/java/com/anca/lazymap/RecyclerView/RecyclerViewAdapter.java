@@ -11,6 +11,7 @@ import android.widget.RatingBar;
 import android.widget.TextView;
 
 import com.anca.lazymap.GoogleData.PlaceDetail.Review;
+import com.anca.lazymap.GoogleData.PlaceSearch.Photo;
 import com.anca.lazymap.R;
 import com.anca.lazymap.RecyclerView.RecyclerObj.Detail;
 import com.anca.lazymap.RecyclerView.RecyclerObj.Map;

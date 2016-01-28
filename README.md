@@ -19,6 +19,14 @@ Tiếp tục click vào bảng này, ứng dụng sẽ đưa người dùng tớ
 2. Gson by Retrofit - http://square.github.io/retrofit/ </br>
 3. Picasso - http://square.github.io/picasso/ </br>
 </br>
-<b>IV. Demo</b></br>
+<b>IV. Icon sử dụng</b></br>
+Icons8 - https://icons8.com/ </br>
+Material Icons - https://design.google.com/icons/ </br></br>
+<b>V. Tài liệu tham khảo</b></br>
+https://developers.google.com/maps/documentation/android-api/</br>
+https://developers.google.com/places/web-service/</br>
+http://stackoverflow.com/ </br>
+
+<b>VI. Demo</b></br>
 Hình ảnh demo: https://goo.gl/photos/wLCEWBfAr39bfvf19 </br>
-Video demo: https://goo.gl/photos/bD5So29TvdhbFgLZA</br >
+Video demo: https://goo.gl/photos/bD5So29TvdhbFgLZA</br>
